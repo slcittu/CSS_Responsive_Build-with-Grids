@@ -15,6 +15,7 @@ li{
 body{
     background: var(--secondary);
     overflow-x: hidden;
+    font-family: 'Rubik Regular';
 }
 
 .button{
@@ -37,6 +38,38 @@ input,textarea{
     border-radius: 20px;
     border: 2px solid #9892D8;
     color: #f2f2f2;
+}
+
+/* fonts */
+
+@font-face{
+    font-family: 'Rubik Regular';
+    src: url(assets//Rubik/static/Rubik-Regular.ttf);
+}
+
+h1,h2,h3,h4{
+    color: #DDDBFF;
+    font-weight: normal;
+}
+
+p,a,li{
+    color: #9893d8;
+}
+
+h1,h3{
+   font-size: 1.2em;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+h4{
+    font-size: 1.1em;
+}
+
+.leading{
+    font-size: 1.1emp[];
 }
 /* base styles */
 
